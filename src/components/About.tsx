@@ -20,7 +20,7 @@ export const About = () => {
                 I blend empathy with engineering in ways few can.
               </p>
               <p>
-                With dreams rooted in India and eyes set on Europe, I'm reskilling, reinventing, 
+                With dreams rooted in India, I'm reskilling, reinventing, 
                 and rewriting what "tech for good" looks like. Curious, committed, and creatively disruptive — 
                 I'm not just chasing a job. I'm designing a legacy.
               </p>
@@ -34,7 +34,7 @@ export const About = () => {
                   MJ
                 </div>
                 <h3 className="text-2xl font-bold text-slate-800 mb-2">DevOps Architect</h3>
-                <p className="text-slate-600 mb-4">Chennai, India → Europe</p>
+                <p className="text-slate-600 mb-4">Chennai, India</p>
                 <div className="flex justify-center space-x-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-blue-600">22+</div>

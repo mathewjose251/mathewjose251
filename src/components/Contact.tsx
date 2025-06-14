@@ -1,5 +1,5 @@
 
-import { Mail, Phone, Linkedin, MapPin } from "lucide-react";
+import { Mail, Phone, Linkedin, MapPin, MessageSquare } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -21,8 +21,8 @@ export const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-slate-800">Email</h3>
-                <a href="mailto:aamnjose@gmail.com" className="text-blue-600 hover:text-blue-800">
-                  aamnjose@gmail.com
+                <a href="mailto:Mathewjose251@gmail.com" className="text-blue-600 hover:text-blue-800">
+                  Mathewjose251@gmail.com
                 </a>
               </div>
             </div>
@@ -33,8 +33,25 @@ export const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-slate-800">Phone</h3>
-                <a href="tel:+919894266325" className="text-blue-600 hover:text-blue-800">
-                  +91 98942 66325
+                <a href="tel:+919962603125" className="text-blue-600 hover:text-blue-800">
+                  +91 99626 03125
+                </a>
+              </div>
+            </div>
+            
+            <div className="flex items-center space-x-4 p-6 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl">
+              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-lg flex items-center justify-center text-white">
+                <MessageSquare className="w-6 h-6" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-slate-800">WhatsApp</h3>
+                <a 
+                  href="https://wa.me/919962603125" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-green-600 hover:text-green-800"
+                >
+                  +91 99626 03125
                 </a>
               </div>
             </div>
@@ -62,7 +79,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-slate-800">Location</h3>
-                <p className="text-slate-600">Chennai, India → Europe</p>
+                <p className="text-slate-600">Chennai, India</p>
               </div>
             </div>
           </div>
@@ -83,8 +100,8 @@ export const Contact = () => {
                 human-centered design thinking, let's create something meaningful together.
               </p>
               <p>
-                🌍 <strong>For European Opportunities:</strong> As I transition to Europe, 
-                I'm open to discussing roles that blend technical excellence with human impact.
+                🌍 <strong>For New Opportunities:</strong> Open to discussing roles that blend 
+                technical excellence with human impact.
               </p>
             </div>
             
