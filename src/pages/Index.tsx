@@ -7,6 +7,8 @@ import { Contact } from "@/components/Contact";
 import { Navigation } from "@/components/Navigation";
 
 const Index = () => {
+  console.log("Index component is rendering");
+  
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-cyan-50">
       <Navigation />
