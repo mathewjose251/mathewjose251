@@ -55,10 +55,26 @@ export const About = () => {
               </div>
               
               <div className="text-center relative z-10">
-                <div className="w-32 h-32 bg-gradient-to-br from-blue-500 via-indigo-600 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-4xl font-bold shadow-lg shadow-blue-500/25 relative">
-                  <span className="relative z-10">MJ</span>
-                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/20 to-blue-500/20 rounded-full animate-pulse"></div>
+                {/* Professional Photo with Enhanced Styling */}
+                <div className="relative w-40 h-40 mx-auto mb-6">
+                  {/* Professional Background Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-slate-100 via-blue-50 to-indigo-100 rounded-full"></div>
+                  <div className="absolute inset-2 bg-gradient-to-br from-white to-slate-50 rounded-full shadow-inner"></div>
+                  
+                  {/* Main Photo Container */}
+                  <div className="absolute inset-3 rounded-full overflow-hidden border-4 border-white shadow-lg shadow-blue-500/20">
+                    <img 
+                      src="/lovable-uploads/925142e6-5462-427c-9303-b813ceb2d048.png" 
+                      alt="Mathew Jose - DevOps Architect" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  
+                  {/* Animated Ring */}
+                  <div className="absolute inset-0 border-2 border-blue-400/30 rounded-full animate-pulse"></div>
+                  <div className="absolute -inset-1 border border-indigo-300/20 rounded-full animate-pulse delay-500"></div>
                 </div>
+                
                 <h3 className="text-2xl font-bold text-slate-800 mb-2 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">DevOps Architect</h3>
                 <p className="text-slate-600 mb-4">Chennai, India</p>
                 <div className="flex justify-center space-x-4">
