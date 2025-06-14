@@ -8,7 +8,7 @@ export const Skills = () => {
       skills: [
         { name: "AWS", level: 95 },
         { name: "Google Cloud", level: 90 },
-        { name: "Kubernetes", level: 88 },
+        { name: "Kubernetes", level: 92 },
         { name: "Docker", level: 92 },
         { name: "Terraform", level: 85 }
       ]
@@ -36,6 +36,7 @@ export const Skills = () => {
   ];
 
   const certifications = [
+    "Certified Kubernetes Application Developer (CKAD)",
     "AWS Certified SysOps Associate",
     "Puppet Certified Professional", 
     "Symantec Certified Associate (VCS-5)",

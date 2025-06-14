@@ -1,6 +1,4 @@
-
-import { Mail, Phone, Linkedin, MapPin, MessageSquare, Github } from "lucide-react";
-import { Medium } from "lucide-react";
+import { Mail, Phone, Linkedin, MapPin, MessageSquare, Github, BookOpen } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -16,6 +14,7 @@ export const Contact = () => {
         
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
+            
             <div className="flex items-center space-x-4 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center text-white">
                 <Mail className="w-6 h-6" />
@@ -73,7 +72,7 @@ export const Contact = () => {
                 </a>
               </div>
             </div>
-
+            
             <div className="flex items-center space-x-4 p-6 bg-gradient-to-r from-slate-50 to-gray-50 rounded-xl">
               <div className="w-12 h-12 bg-gradient-to-r from-slate-600 to-gray-700 rounded-lg flex items-center justify-center text-white">
                 <Github className="w-6 h-6" />
@@ -93,7 +92,7 @@ export const Contact = () => {
 
             <div className="flex items-center space-x-4 p-6 bg-gradient-to-r from-orange-50 to-red-50 rounded-xl">
               <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center text-white">
-                <Medium className="w-6 h-6" />
+                <BookOpen className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="font-semibold text-slate-800">Medium</h3>

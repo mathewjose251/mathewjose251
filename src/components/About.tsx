@@ -28,13 +28,13 @@ export const About = () => {
             <div className="space-y-4 text-slate-600 leading-relaxed">
               <p className="p-4 bg-white/60 backdrop-blur-sm rounded-lg border border-blue-100/50">
                 A 22-year DevOps veteran with one foot in the cloud and the other stepping boldly into the world of AI. 
-                Whether it's Terraforming infrastructure or reimagining emotional wellness on Indian beaches, 
+                Whether it's orchestrating Kubernetes clusters, Terraforming infrastructure, or reimagining emotional wellness on Indian beaches, 
                 I'm equally at home debugging code and designing soul-touching workshops.
               </p>
               <p className="p-4 bg-white/60 backdrop-blur-sm rounded-lg border border-indigo-100/50">
                 I'm the kind of person who thinks deeply — about parenting, purpose, and progress. 
                 From teaching kids that joy starts within, to coaching underprivileged students through Notebook 2025, 
-                I blend empathy with engineering in ways few can.
+                I blend empathy with engineering in ways few can. CKAD certified and Kubernetes expert, I thrive in container orchestration and cloud-native architectures.
               </p>
               <p className="p-4 bg-white/60 backdrop-blur-sm rounded-lg border border-blue-100/50">
                 With dreams rooted in India, I'm reskilling, reinventing, 
