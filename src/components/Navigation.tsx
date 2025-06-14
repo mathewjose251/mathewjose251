@@ -17,7 +17,6 @@ export const Navigation = () => {
   const navItems = [
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
-    { name: "Skills", href: "#skills" },
     { name: "Impact", href: "#impact" },
     { name: "Contact", href: "#contact" },
   ];
@@ -26,7 +25,7 @@ export const Navigation = () => {
     const element = document.querySelector(href);
     if (element) {
       const headerHeight = 80; // Account for fixed header
-      const elementPosition = element.offsetTop - headerHeight;
+      const elementPosition = (element as HTMLElement).offsetTop - headerHeight;
       window.scrollTo({
         top: elementPosition,
         behavior: 'smooth'
