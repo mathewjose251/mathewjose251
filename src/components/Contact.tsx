@@ -1,5 +1,6 @@
 
-import { Mail, Phone, Linkedin, MapPin, MessageSquare } from "lucide-react";
+import { Mail, Phone, Linkedin, MapPin, MessageSquare, Github } from "lucide-react";
+import { Medium } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -69,6 +70,40 @@ export const Contact = () => {
                   className="text-blue-600 hover:text-blue-800"
                 >
                   /in/mathewjose251
+                </a>
+              </div>
+            </div>
+
+            <div className="flex items-center space-x-4 p-6 bg-gradient-to-r from-slate-50 to-gray-50 rounded-xl">
+              <div className="w-12 h-12 bg-gradient-to-r from-slate-600 to-gray-700 rounded-lg flex items-center justify-center text-white">
+                <Github className="w-6 h-6" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-slate-800">GitHub</h3>
+                <a 
+                  href="https://github.com/mathewjose251" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-slate-600 hover:text-slate-800"
+                >
+                  @mathewjose251
+                </a>
+              </div>
+            </div>
+
+            <div className="flex items-center space-x-4 p-6 bg-gradient-to-r from-orange-50 to-red-50 rounded-xl">
+              <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center text-white">
+                <Medium className="w-6 h-6" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-slate-800">Medium</h3>
+                <a 
+                  href="https://medium.com/@mathewjose251" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-orange-600 hover:text-orange-800"
+                >
+                  @mathewjose251
                 </a>
               </div>
             </div>
